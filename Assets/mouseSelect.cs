@@ -11,8 +11,6 @@ public class mouseSelect : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		selectedMaterial = Resources.Load("SelectedMateiral") as Material;
-		if(selectedMaterial == null)
-			print ("fuck");
 	}
 	
 	// Update is called once per frame
